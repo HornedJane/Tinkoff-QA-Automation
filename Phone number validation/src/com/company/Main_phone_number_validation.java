@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main {
+public class Main_phone_number_validation {
 
     public static String[] phoneValidation(String phone) {
 
