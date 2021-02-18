@@ -6,13 +6,13 @@ public class Main_Thanos_sort {
 
     public static double countMean(int lArrayIndex, int rArrayIndex, int[] array) {
 
-        int sum = 0;
+        double sum = 0;
         double mean;
 
         for (int i = lArrayIndex; i <= rArrayIndex; i++) {
             sum += array[i];
         }
-        mean = (double) sum / (rArrayIndex - lArrayIndex + 1);
+        mean = sum / (rArrayIndex - lArrayIndex + 1);
         return mean;
     }
 
