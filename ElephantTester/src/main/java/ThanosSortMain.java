@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Thanos_sort_main {
+public class ThanosSortMain {
 
     public static double countMean(int lArrayIndex, int rArrayIndex, int[] array) {
 

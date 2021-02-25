@@ -1,13 +1,13 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class Thanos_sort_test {
+public class ThanosSortTest {
 
     @Test
     public void positivesSortTest() {
     int[] array = {2, 3, 1, 5, 4};
     int[] expectedResult = {1, 2, 3, 4, 5};
-    int[] result = Thanos_sort_main.snapMyFingers(array);
+    int[] result = ThanosSortMain.snapMyFingers(array);
         Assertions.assertArrayEquals(expectedResult, result);
     }
 
@@ -15,7 +15,7 @@ public class Thanos_sort_test {
     public void negativesSortTest() {
         int[] array = {-2, -3, -1, -5, -4};
         int[] expectedResult = {-5, -4, -3, -2, -1};
-        int[] result = Thanos_sort_main.snapMyFingers(array);
+        int[] result = ThanosSortMain.snapMyFingers(array);
         Assertions.assertArrayEquals(expectedResult, result);
     }
 
@@ -23,7 +23,7 @@ public class Thanos_sort_test {
     public void integersSortTest() {
         int[] array = {0, -5, 2, 14, -6, -8, 12, -2};
         int[] expectedResult = {-8, -6, -5, -2, 0, 2, 12, 14};
-        int[] result = Thanos_sort_main.snapMyFingers(array);
+        int[] result = ThanosSortMain.snapMyFingers(array);
         Assertions.assertArrayEquals(expectedResult, result);
     }
 
@@ -31,7 +31,7 @@ public class Thanos_sort_test {
     public void oddLengthSortTest() {
         int[] array = {0, -5, 2, 14, -6};
         int[] expectedResult = {-6, -5, 0, 2, 14};
-        int[] result = Thanos_sort_main.snapMyFingers(array);
+        int[] result = ThanosSortMain.snapMyFingers(array);
         Assertions.assertArrayEquals(expectedResult, result);
     }
 
@@ -39,7 +39,7 @@ public class Thanos_sort_test {
     public void evenLengthSortTest() {
         int[] array = {0, -5, 2, 14, -6, -8};
         int[] expectedResult = {-8, -6, -5, 0, 2, 14};
-        int[] result = Thanos_sort_main.snapMyFingers(array);
+        int[] result = ThanosSortMain.snapMyFingers(array);
         Assertions.assertArrayEquals(expectedResult, result);
     }
 
@@ -47,7 +47,7 @@ public class Thanos_sort_test {
     public void equalsSortTest() {
         int[] array = {2, -2, -2, 2, -2, 0, 2, -2, -2};
         int[] expectedResult = {-2, -2, -2, -2, -2, 0, 2, 2, 2};
-        int[] result = Thanos_sort_main.snapMyFingers(array);
+        int[] result = ThanosSortMain.snapMyFingers(array);
         Assertions.assertArrayEquals(expectedResult, result);
     }
 
@@ -55,7 +55,7 @@ public class Thanos_sort_test {
     public void allEqualsSortTest() {
         int[] array = {-13, -13, -13, -13};
         int[] expectedResult = {-13, -13, -13, -13};
-        int[] result = Thanos_sort_main.snapMyFingers(array);
+        int[] result = ThanosSortMain.snapMyFingers(array);
         Assertions.assertArrayEquals(expectedResult, result);
     }
 
@@ -63,7 +63,7 @@ public class Thanos_sort_test {
     public void singleSortTest() {
         int[] array = {7};
         int[] expectedResult = {7};
-        int[] result = Thanos_sort_main.snapMyFingers(array);
+        int[] result = ThanosSortMain.snapMyFingers(array);
         Assertions.assertArrayEquals(expectedResult, result);
     }
 
@@ -71,7 +71,7 @@ public class Thanos_sort_test {
     public void emptySortTest() {
         int[] array = {};
         int[] expectedResult = {};
-        int[] result = Thanos_sort_main.snapMyFingers(array);
+        int[] result = ThanosSortMain.snapMyFingers(array);
         Assertions.assertArrayEquals(expectedResult, result);
     }
 
@@ -80,7 +80,7 @@ public class Thanos_sort_test {
     public void criticalValuesSortTest() {
         int[] array = {-2147483648, 2147483647, 2147483647, -2147483648, -2147483648};
         int[] expectedResult = {-2147483648, -2147483648, -2147483648, 2147483647, 2147483647};
-        int[] result = Thanos_sort_main.snapMyFingers(array);
+        int[] result = ThanosSortMain.snapMyFingers(array);
         Assertions.assertArrayEquals(expectedResult, result);
     }
 }
