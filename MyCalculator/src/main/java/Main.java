@@ -11,15 +11,14 @@ public class Main {
         Operation solver;
 
         System.out.println("This calculator can do binary operations\n" +
-                "available operators: +, -, *, /, ^, //\n");
+                "available operators: +, -, *, /, ^\n");
 
         inputExpression = getNewExpression();
 
         while (!inputExpression.equals("q")) {
 
-            String[] lex;
+            String[] lex = inputExpression.split(" ");   // KLUDGE!
 
-            lex = inputExpression.split(" ");   // KLUDGE!
             a = Double.parseDouble(lex[0]);
             b = Double.parseDouble(lex[2]);
             operator = lex[1];
@@ -38,13 +37,6 @@ public class Main {
         System.out.println("Type new expression or 'q' to quit");
 
         return in.nextLine();
-    }
-
-    public static Boolean isCorrect(String expression) {       // KLUDGE!
-
-        boolean result = false;
-
-        return result;
     }
 
     public static Operation getOperation(String operator) {
@@ -67,12 +59,6 @@ public class Main {
             case "^":
                 result = new Power();
                 break;
-            case "//":
-                result = new IntDivide();
-                break;
-            //case "%":
-            //    result = new Remainder();
-            //    break;
         }
         return result;
     }

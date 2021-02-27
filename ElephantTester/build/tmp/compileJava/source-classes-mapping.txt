@@ -1,2 +1,2 @@
-Thanos_sort_main.java
- Thanos_sort_main
+ThanosSortMain.java
+ ThanosSortMain

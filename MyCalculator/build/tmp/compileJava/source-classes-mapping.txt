@@ -10,9 +10,5 @@ Add.java
  Add
 Power.java
  Power
-IntDivide.java
- IntDivide
-Remainder.java
- Remainder
 Main.java
  Main
