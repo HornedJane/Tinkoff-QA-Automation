@@ -1,0 +1,24 @@
+MyCalculator/Subtract.java
+ MyCalculator.Subtract
+ThanosSort/MainThanosSort.java
+ ThanosSort.MainThanosSort
+BookReader/Book.java
+ BookReader.Book
+MyCalculator/Add.java
+ MyCalculator.Add
+MyCalculator/Operation.java
+ MyCalculator.Operation
+MyCalculator/Multiply.java
+ MyCalculator.Multiply
+MyCalculator/Main.java
+ MyCalculator.Main
+MyCalculator/Power.java
+ MyCalculator.Power
+BookReader/Main.java
+ BookReader.Main
+MyCalculator/Divide.java
+ MyCalculator.Divide
+PhoneNumberValidation/MainPhoneNumberValidation.java
+ PhoneNumberValidation.MainPhoneNumberValidation
+BookReader/Reader.java
+ BookReader.Reader

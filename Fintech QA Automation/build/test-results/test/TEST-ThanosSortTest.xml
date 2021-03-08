@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ThanosSortTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-03-08T12:35:10" hostname="DESKTOP-8R433U7" time="0.042">
+  <properties/>
+  <testcase name="negativesSortTest()" classname="ThanosSortTest" time="0.027"/>
+  <testcase name="emptySortTest()" classname="ThanosSortTest" time="0.0"/>
+  <testcase name="allEqualsSortTest()" classname="ThanosSortTest" time="0.0"/>
+  <testcase name="oddLengthSortTest()" classname="ThanosSortTest" time="0.001"/>
+  <testcase name="criticalValuesSortTest()" classname="ThanosSortTest" time="0.001"/>
+  <testcase name="evenLengthSortTest()" classname="ThanosSortTest" time="0.001"/>
+  <testcase name="integersSortTest()" classname="ThanosSortTest" time="0.001"/>
+  <testcase name="positivesSortTest()" classname="ThanosSortTest" time="0.0"/>
+  <testcase name="equalsSortTest()" classname="ThanosSortTest" time="0.002"/>
+  <testcase name="singleSortTest()" classname="ThanosSortTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
