@@ -22,3 +22,35 @@ PhoneNumberValidation/MainPhoneNumberValidation.java
  PhoneNumberValidation.MainPhoneNumberValidation
 BookReader/Reader.java
  BookReader.Reader
+BattleRoyale/withTHAxe.java
+ BattleRoyale.withTHAxe
+BattleRoyale/withHandgun.java
+ BattleRoyale.withHandgun
+BattleRoyale/withWrench.java
+ BattleRoyale.withWrench
+BattleRoyale/withDaggers.java
+ BattleRoyale.withDaggers
+BattleRoyale/withHammerShield.java
+ BattleRoyale.withHammerShield
+BattleRoyale/withLongsword.java
+ BattleRoyale.withLongsword
+BattleRoyale/withHalberd.java
+ BattleRoyale.withHalberd
+BattleRoyale/Dwarf.java
+ BattleRoyale.Dwarf
+BattleRoyale/Elf.java
+ BattleRoyale.Elf
+BattleRoyale/WhiteLion.java
+ BattleRoyale.WhiteLion
+BattleRoyale/IronBreaker.java
+ BattleRoyale.IronBreaker
+BattleRoyale/withBow.java
+ BattleRoyale.withBow
+BattleRoyale/Engineer.java
+ BattleRoyale.Engineer
+BattleRoyale/WayWatcher.java
+ BattleRoyale.WayWatcher
+BattleRoyale/Main.java
+ BattleRoyale.Main
+BattleRoyale/Battle.java
+ BattleRoyale.Battle
