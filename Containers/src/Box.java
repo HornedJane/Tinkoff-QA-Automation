@@ -1,5 +1,3 @@
-package ru.fintech.qa.automation;
-
 public class Box<T> {
     private T element;
 
