@@ -16,16 +16,16 @@ ru/fintech/qa/myCalculator/Subtract.java
  ru.fintech.qa.myCalculator.Subtract
 ru/fintech/qa/battleRoyale/withHammerShield.java
  ru.fintech.qa.battleRoyale.withHammerShield
-ru/fintech/qa/myCalculator/Add.java
- ru.fintech.qa.myCalculator.Add
+ru/fintech/qa/lockDownCheck/Country.java
+ ru.fintech.qa.lockDownCheck.Country
 ru/fintech/qa/myCalculator/Divide.java
  ru.fintech.qa.myCalculator.Divide
 ru/fintech/qa/myCalculator/Main.java
  ru.fintech.qa.myCalculator.Main
 ru/fintech/qa/battleRoyale/withHandgun.java
  ru.fintech.qa.battleRoyale.withHandgun
-ru/fintech/qa/myCalculator/Operation.java
- ru.fintech.qa.myCalculator.Operation
+ru/fintech/qa/lockDownCheck/NoSuchCountryException.java
+ ru.fintech.qa.lockDownCheck.NoSuchCountryException
 ru/fintech/qa/myCalculator/Power.java
  ru.fintech.qa.myCalculator.Power
 ru/fintech/qa/battleRoyale/Engineer.java
@@ -36,8 +36,8 @@ ru/fintech/qa/battleRoyale/WhiteLion.java
  ru.fintech.qa.battleRoyale.WhiteLion
 ru/fintech/qa/myCalculator/Multiply.java
  ru.fintech.qa.myCalculator.Multiply
-ru/fintech/qa/bookReader/Reader.java
- ru.fintech.qa.bookReader.Reader
+ru/fintech/qa/lockDownCheck/Main.java
+ ru.fintech.qa.lockDownCheck.Main
 ru/fintech/qa/bookReader/Main.java
  ru.fintech.qa.bookReader.Main
 ru/fintech/qa/battleRoyale/withBow.java
@@ -54,9 +54,9 @@ ru/fintech/qa/thanosSort/MainThanosSort.java
  ru.fintech.qa.thanosSort.MainThanosSort
 ru/fintech/qa/battleRoyale/withWrench.java
  ru.fintech.qa.battleRoyale.withWrench
-ru/fintech/qa/lockDownCheck/Country.java
- ru.fintech.qa.lockDownCheck.Country
-ru/fintech/qa/lockDownCheck/NoSuchCountryException.java
- ru.fintech.qa.lockDownCheck.NoSuchCountryException
-ru/fintech/qa/lockDownCheck/Main.java
- ru.fintech.qa.lockDownCheck.Main
+ru/fintech/qa/myCalculator/Operation.java
+ ru.fintech.qa.myCalculator.Operation
+ru/fintech/qa/bookReader/Reader.java
+ ru.fintech.qa.bookReader.Reader
+ru/fintech/qa/myCalculator/Add.java
+ ru.fintech.qa.myCalculator.Add
